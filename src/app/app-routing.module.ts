@@ -5,6 +5,10 @@ import { IndexComponent } from './assets/index/index.component';
  
 const routes: Routes = [
   {
+    path: 'index',
+    component: IndexComponent,
+  },
+  {
     path: 'seguridad',
     loadChildren: () => import('./modulos/seguridad/seguridad.module').then(m => m.SeguridadModule)
   },{

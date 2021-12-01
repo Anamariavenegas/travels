@@ -5,6 +5,6 @@ export class UsuarioModelo{
     telefono?: string;
     correo?: string;
     token?: string;
-    isLoggedIn?: boolean = false;
+    isLoggedIn?: boolean = false
   }
   
