@@ -27,6 +27,11 @@ export class AeropuertosService {
       coord_y: aeropuerto.coord_y,
       siglas: aeropuerto.siglas,
       tipo: aeropuerto.tipo
+    },
+    {
+      headers: new HttpHeaders({
+        "Authorization": `Bearer ${this.token}`
+      })
     });
   }
 

@@ -24,7 +24,7 @@ export class EditComponent implements OnInit {
     pais: ['', [Validators.required]],
     coord_x: ['', [Validators.required]],
     coord_y: ['', [Validators.required]],
-    siglas: [{value: '', disabled: true},'', [Validators.required]],
+    siglas: ['', [Validators.required]],
     tipo: ['', [Validators.required]],
   });
  
